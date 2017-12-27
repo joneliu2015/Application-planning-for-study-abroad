@@ -106,4 +106,170 @@ li:hover {
     font-size: 36px;
     margin: 36px 0 36px 0;
 } */
+.active {
+	background-color: #4A74E2;
+	color: #fff;
+}
+.active2{
+    color: #3869E5 !important;
+}
+.center_title{
+    text-align: center;
+    height: 168px;
+    
+}
+.center_title>span{
+    cursor: pointer;
+}
+.center_title>span{
+    margin: 0 3rem;
+    text-align: center;
+    width: 264px;
+    line-height: 168px;
+    font-size: 36px;
+    position: relative;
+    color: #B3B3B3
+}
 
+
+
+.grade::after,
+.cost::after,
+.time::after
+{
+    content: " ";
+    position: absolute;
+    left: 60px;
+    bottom:-18px;
+    width:28px;
+    border-bottom: 5px solid #fff;
+    transform-origin: 0 100% ;
+    transform: scaleY(0.5);
+    z-index: 5;
+}
+.grade.change::after,
+.cost.change::after,
+.time.change::after
+{
+    content: " ";
+    position: absolute;
+    left: 60px;
+    bottom:-18px;
+    width:28px;
+    border-bottom: 5px solid #3869E5;
+    transform-origin: 0 100%;
+    transform: scaleY(0.5);
+    z-index: 5;
+}
+
+.consult{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 90px;
+}
+.consult>.liuyan{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    border:2px solid #FF5763;
+    color: #FF5763;
+    margin-right: 24px; 
+}
+.consult>.zixun{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #FF5763;
+    border:2px solid #FF5763;
+    color: #fff; 
+    cursor: pointer
+}
+a:hover,a:active,a:link,a:visited{
+    text-decoration: none !important;
+}
+footer {
+    /*height: 17.857143rem;*/
+    background: url(../img/footer_bg.jpg) repeat center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: cover
+}
+.pccss {
+    display: block;
+    margin-top: 4.571429rem;
+    color: #d3d3d3;
+}
+
+.lis {
+    padding: 0 4.285714rem;
+}
+.links>span,
+.tuiguang>span {
+    margin: 0.5rem 1rem 0.5rem 0;
+    font-size: 1rem;
+}
+.weibo {
+    margin-left: 2.571429rem;
+}
+.qr {
+    position: relative;
+}
+.qrwechat {
+    position: absolute;
+    top: -8rem;
+    left: -2rem;
+}
+.qrweibo {
+    position: absolute;
+    top: -8rem;
+    left: 6rem;
+}
+.qrwechat,
+.qrweibo {
+	display: none;
+}
+.pccss p {
+    color: #ccc;
+    font-size: 1rem;
+}
+.pccss .bot_title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    opacity: 0.6;
+}
+.pccss a {
+    color: #ccc
+}
+.pccss .logo {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%
+}
+.pccss div{
+    padding: 0 20px;
+}
+
+.pccss .lis:nth-child(2){
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+
+.toTop {
+    display: block;
+    position: fixed;
+    top: 60%;
+    right: 6rem;
+}
+.leyuu {
+    display: block;
+    position: fixed;
+    top: 30%;
+    right: 3rem;
+}

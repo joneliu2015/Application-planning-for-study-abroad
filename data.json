@@ -1,0 +1,97 @@
+{
+    "country": [
+        
+        {   
+            "wendaSrc": "./img/pic/wenda_usa_1366.jpg",
+            "wendaSrcset": "./img/pic/wenda_usa_1366.jpg 1366w, ./img/pic/wenda_usa_1600.jpg 1600w, ./img/pic/wenda_usa_1920.jpg 1920w",
+            "grade":"成绩要求",
+            "cost":"费用问题",
+            "time":"时间规划",
+            "chengjiSrc":"./img/pic/score_usa_1366.jpg",
+            "chengjiSrcset":"./img/pic/score_usa_1366.jpg 1366w, ./img/pic/score_usa_1600.jpg 1600w, ./img/pic/score_usa_1920.jpg 1920w",
+            "feiyongSrc":"./img/pic/fee_usa_1366.jpg",
+            "feiyongSrcset":"./img/pic/fee_usa_1366.jpg 1366w, ./img/pic/fee_usa_1600.jpg 1600w, ./img/pic/fee_usa_1920.jpg 1920w",
+            "shijianSrc":"./img/pic/plan_usa_1366.jpg",
+            "shijianSrcset":"./img/pic/plan_usa_1366.jpg 1366w, ./img/pic/plan_usa_1600.jpg 1600w, ./img/pic/plan_usa_1920.jpg 1920w",
+            "caseSrc":"./img/pic/case_usa_1366.jpg",
+            "caseSrcset":"./img/pic/case_usa_1366.jpg 1366w, ./img/pic/case_usa_1600.jpg 1600w, ./img/pic/case_usa_1920.jpg 1920w"
+
+        },{   
+            "wendaSrc": "./img/pic/wenda_uk_1366.jpg",
+            "wendaSrcset": "./img/pic/wenda_uk_1366.jpg 1366w, ./img/pic/wenda_uk_1600.jpg 1600w, ./img/pic/wenda_uk_1920.jpg 1920w",
+            "grade":"申请方案",
+            "cost":"优势专业",
+            "time":"时间规划",
+            "chengjiSrc":"./img/pic/score_uk_1366.jpg",
+            "chengjiSrcset":"./img/pic/score_uk_1366.jpg 1366w, ./img/pic/score_uk_1600.jpg 1600w, ./img/pic/score_uk_1920.jpg 1920w",
+            "feiyongSrc":"./img/pic/major_uk_1366.jpg",
+            "feiyongSrcset":"./img/pic/major_uk_1366.jpg 1366w, ./img/pic/major_uk_1600.jpg 1600w, ./img/pic/major_uk_1920.jpg 1920w",
+            "shijianSrc":"./img/pic/plan_uk_1366.jpg",
+            "shijianSrcset":"./img/pic/plan_uk_1366.jpg 1366w, ./img/pic/plan_uk_1600.jpg 1600w, ./img/pic/plan_uk_1920.jpg 1920w",
+            "caseSrc":"./img/pic/case_uk_1366.jpg",
+            "caseSrcset":"./img/pic/case_uk_1366.jpg 1366w, ./img/pic/case_uk_1600.jpg 1600w, ./img/pic/case_uk_1920.jpg 1920w"
+
+        },{   
+            "wendaSrc": "./img/pic/wenda_canada_1366.jpg",
+            "wendaSrcset": "./img/pic/wenda_canada_1366.jpg 1366w, ./img/pic/wenda_canada_1600.jpg 1600w, ./img/pic/wenda_canada_1920.jpg 1920w",
+            "grade":"成绩要求",
+            "cost":"费用问题",
+            "time":"时间规划",
+            "chengjiSrc":"./img/pic/score_canada_1366.jpg",
+            "chengjiSrcset":"./img/pic/score_canada_1366.jpg 1366w, ./img/pic/score_canada_1600.jpg 1600w, ./img/pic/score_canada_1920.jpg 1920w",
+            "feiyongSrc":"./img/pic/fee_canada_1366.jpg",
+            "feiyongSrcset":"./img/pic/fee_canada_1366.jpg 1366w, ./img/pic/fee_canada_1600.jpg 1600w, ./img/pic/fee_canada_1920.jpg 1920w",
+            "shijianSrc":"./img/pic/plan_canada_1366.jpg",
+            "shijianSrcset":"./img/pic/plan_canada_1366.jpg 1366w, ./img/pic/plan_canada_1600.jpg 1600w, ./img/pic/plan_canada_1920.jpg 1920w",
+            "caseSrc":"./img/pic/case_canada_1366.jpg",
+            "caseSrcset":"./img/pic/case_canada_1366.jpg 1366w, ./img/pic/case_canada_1600.jpg 1600w, ./img/pic/case_canada_1920.jpg 1920w"
+
+        },{   
+            "wendaSrc": "./img/pic/wenda_aoxin_1366.jpg",
+            "wendaSrcset": "./img/pic/wenda_aoxin_1366.jpg 1366w, ./img/pic/wenda_aoxin_1600.jpg 1600w, ./img/pic/wenda_aoxin_1920.jpg 1920w",
+            "grade":"成绩要求",
+            "cost":"费用问题",
+            "time":"时间规划",
+            "chengjiSrc":"./img/pic/score_aoxin_1366.jpg",
+            "chengjiSrcset":"./img/pic/score_aoxin_1366.jpg 1366w, ./img/pic/score_aoxin_1600.jpg 1600w, ./img/pic/score_aoxin_1920.jpg 1920w",
+            "feiyongSrc":"./img/pic/fee_aoxin_1366.jpg",
+            "feiyongSrcset":"./img/pic/fee_aoxin_1366.jpg 1366w, ./img/pic/fee_aoxin_1600.jpg 1600w, ./img/pic/fee_aoxin_1920.jpg 1920w",
+            "shijianSrc":"./img/pic/plan_aoxin_1366.jpg",
+            "shijianSrcset":"./img/pic/plan_aoxin_1366.jpg 1366w, ./img/pic/plan_aoxin_1600.jpg 1600w, ./img/pic/plan_aoxin_1920.jpg 1920w",
+            "caseSrc":"./img/pic/case_aoxin_1366.jpg",
+            "caseSrcset":"./img/pic/case_aoxin_1366.jpg 1366w, ./img/pic/case_aoxin_1600.jpg 1600w, ./img/pic/case_aoxin_1920.jpg 1920w"
+
+        },{   
+            "wendaSrc": "./img/pic/wenda_europe_1366.jpg",
+            "wendaSrcset": "./img/pic/wenda_europe_1366.jpg 1366w, ./img/pic/wenda_europe_1600.jpg 1600w, ./img/pic/wenda_europe_1920.jpg 1920w",
+            "grade":"成绩要求",
+            "cost":"费用问题",
+            "time":"时间规划",
+            "chengjiSrc":"./img/pic/score_europe_1366.jpg",
+            "chengjiSrcset":"./img/pic/score_europe_1366.jpg 1366w, ./img/pic/score_europe_1600.jpg 1600w, ./img/pic/score_europe_1920.jpg 1920w",
+            "feiyongSrc":"./img/pic/fee_europe_1366.jpg",
+            "feiyongSrcset":"./img/pic/fee_europe_1366.jpg 1366w, ./img/pic/fee_europe_1600.jpg 1600w, ./img/pic/fee_europe_1920.jpg 1920w",
+            "shijianSrc":"./img/pic/plan_europe_1366.jpg",
+            "shijianSrcset":"./img/pic/plan_europe_1366.jpg 1366w, ./img/pic/plan_europe_1600.jpg 1600w, ./img/pic/plan_europe_1920.jpg 1920w",
+            "caseSrc":"./img/pic/case_europe_1366.jpg",
+            "caseSrcset":"./img/pic/case_europe_1366.jpg 1366w, ./img/pic/case_europe_1600.jpg 1600w, ./img/pic/case_europe_1920.jpg 1920w"
+        },{   
+            "wendaSrc": "./img/pic/wenda_asia_1366.jpg",
+            "wendaSrcset": "./img/pic/wenda_asia_1366.jpg 1366w, ./img/pic/wenda_asia_1600.jpg 1600w, ./img/pic/wenda_asia_1920.jpg 1920w",
+            "grade":"成绩要求",
+            "cost":"费用问题",
+            "time":"时间规划",
+            "chengjiSrc":"./img/pic/score_asia_1366.jpg",
+            "chengjiSrcset":"./img/pic/score_asia_1366.jpg 1366w, ./img/pic/score_asia_1600.jpg 1600w, ./img/pic/score_asia_1920.jpg 1920w",
+            "feiyongSrc":"./img/pic/fee_asia_1366.jpg",
+            "feiyongSrcset":"./img/pic/fee_asia_1366.jpg 1366w, ./img/pic/fee_asia_1600.jpg 1600w, ./img/pic/fee_asia_1920.jpg 1920w",
+            "shijianSrc":"./img/pic/plan_asia_1366.jpg",
+            "shijianSrcset":"./img/pic/plan_asia_1366.jpg 1366w, ./img/pic/plan_asia_1600.jpg 1600w, ./img/pic/plan_asia_1920.jpg 1920w",
+            "caseSrc":"./img/pic/case_asia_1366.jpg",
+            "caseSrcset":"./img/pic/case_asia_1366.jpg 1366w, ./img/pic/case_asia_1600.jpg 1600w, ./img/pic/case_asia_1920.jpg 1920w"
+
+        }
+
+    ]
+    
+}
