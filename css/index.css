@@ -6,6 +6,9 @@ header{
     background-size: 100% 100%;
 
 }
+i{
+    font-style:normal
+}
 .top1{
     height: auto;
     padding-top:15px;
@@ -38,11 +41,11 @@ header{
     display: inline-block;
     background-color: #372C2A;
     margin-top: -50px;
-
+    margin-left: 3px;
 }
 .title_right {
     display: inline-block;
-    line-height: 28px;
+    line-height: 35px;
 }
 .title_right span:nth-child(1),
 
@@ -51,12 +54,17 @@ header{
     color: #ffffff;
     
 }
-
-.title_right span:nth-child(2)
-{
-    font-size: 32px;
+.p2{
+    width: 36px;
+    height: 36px;
     background-color: #372C2A;
     border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.p2>i{
+    font-size: 21px;
+    
     color: #ffffff
 
 }
