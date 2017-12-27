@@ -211,7 +211,7 @@ footer {
 .links>span,
 .tuiguang>span {
     margin: 0.5rem 1rem 0.5rem 0;
-    font-size: 1rem;
+    font-size: 12px;
 }
 .weibo {
     margin-left: 2.571429rem;
@@ -235,7 +235,7 @@ footer {
 }
 .pccss p {
     color: #ccc;
-    font-size: 1rem;
+    font-size: 12px;
 }
 .pccss .bot_title {
     font-size: 1.5rem;
