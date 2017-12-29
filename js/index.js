@@ -4,7 +4,6 @@ function openWin() {
 };
 
 window.onload = function () {
-
     // “返回顶部按钮”显示隐藏
     var clientHeight = document.documentElement.clientHeight;
     window.onscroll = function () {
@@ -15,10 +14,8 @@ window.onload = function () {
             $('.toTop').hide();
         }
     };
-
     //点击返回顶部
     $(".toTop").click(function () {
-
         $("html,body").animate({
             scrollTop: 0
         }, 500);
@@ -55,14 +52,9 @@ window.onload = function () {
                 $(".country>li").eq(index).addClass("active").siblings().removeClass("active");
                 //获取当前点击项目的ID
                 var indexI = $(this).index();
-                console.log(indexI);
-                console.log(jsArr);
-
                 var obj = {
                     items: jsArr.country[indexI]
                 };
-                console.log(obj);
-
                 var result = template('template', obj);
                 $('section').html('');
                 $('nav').after(result);

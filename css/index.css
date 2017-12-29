@@ -1,32 +1,32 @@
-html{
-    overflow-y:scroll;
-    overflow-x:hidden;
-    table-layout:fixed;
-    word-wrap:break-word;
-    word-break:break-all;
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
-
-
-header{
+header {
     width: 100%;
     height: auto;
-    background: url(../img/top_bg.jpg) no-repeat center ;
+    background: url(../img/top_bg.jpg) no-repeat center;
     background-size: 100% 100%;
-
 }
-section{
+
+section {
     width: 100%;
 }
-i{
-    font-style:normal
+
+i {
+    font-style: normal
 }
-.top1{
+
+.top1 {
     height: auto;
-    /* padding-top:15px; */
     position: relative
 }
-.mask{
+
+.mask {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -34,33 +34,38 @@ i{
     height: 70px;
     background-color: rgba(0, 0, 0);
     opacity: 0.1;
-    z-index:1;
-}   
-.top2{
+    z-index: 1;
+}
+
+.top2 {
     height: 70px;
     display: block;
     line-height: 70px;
-    z-index:999;
+    z-index: 999;
 }
-.logo{
-    display: inline-block;
 
+.logo {
+    display: inline-block;
 }
-.copyright{
+
+.copyright {
     float: right;
 }
-.title{
+
+.title {
     margin-top: 100px;
     margin-bottom: 90px;
     overflow: hidden
 }
-.title img{
+
+.title img {
     display: inline-block;
     width: auto;
     height: 100px;
     vertical-align: text-bottom;
 }
-.title .line{
+
+.title .line {
     width: 6px;
     height: 100px;
     display: inline-block;
@@ -68,24 +73,29 @@ i{
     margin-top: -50px;
     margin-left: 3px;
 }
+
 .title_right {
     display: inline-block;
     line-height: 24px;
     margin-left: 5px;
 }
+
 .title_right span:nth-child(1),
-.title_right span:nth-child(3){
+.title_right span:nth-child(3) {
     font-size: 36px;
     color: #372C2A;
 }
-.title_right span:nth-child(3){
+
+.title_right span:nth-child(3) {
     line-height: 40px;
 }
-.title_right span:nth-child(4){
+
+.title_right span:nth-child(4) {
     font-size: 12px;
     color: #372C2A;
 }
-.p2{
+
+.p2 {
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -94,11 +104,10 @@ i{
     display: inline-block;
     text-align: center;
 }
-.p2>i{
-    font-size: 20px;
-    
-    color: #ffffff
 
+.p2>i {
+    font-size: 20px;
+    color: #ffffff
 }
 
 ul {
@@ -107,9 +116,9 @@ ul {
     display: block;
     text-align: center;
 }
+
 li {
     list-style: none;
-    /*float: left;*/
     font: bold 17px "MicrosoftYahei";
     line-height: 3rem;
     margin: 1rem 0 1rem 0;
@@ -128,38 +137,31 @@ li {
     padding: 6px 18px;
     margin-left: 24px;
 }
+
 li:hover {
     color: #fff;
     background-color: rgb(180, 199, 241);
 }
-/* .misconceptions{ */
-    /* background: url(../img/center_bg.jpg) no-repeat center;
-    border-top: 1px solid #EEEFEF;
-    width: 100%;
-    height: 430px;
-    background-size:100% 100%; */
-/* }
-.title1{
-    text-align: center;
-    font-size: 36px;
-    margin: 36px 0 36px 0;
-} */
+
 .active {
-	background-color: #4A74E2;
-	color: #fff;
+    background-color: #4A74E2;
+    color: #fff;
 }
-.active2{
+
+.active2 {
     color: #3869E5 !important;
 }
-.center_title{
+
+.center_title {
     text-align: center;
     height: 168px;
-    
 }
-.center_title>span{
+
+.center_title>span {
     cursor: pointer;
 }
-.center_title>span{
+
+.center_title>span {
     margin: 0 3rem;
     text-align: center;
     width: 264px;
@@ -169,74 +171,78 @@ li:hover {
     color: #B3B3B3
 }
 
-
-
 .grade::after,
 .cost::after,
-.time::after
-{
+.time::after {
     content: " ";
     position: absolute;
     left: 60px;
-    bottom:-18px;
-    width:28px;
+    bottom: -18px;
+    width: 28px;
     border-bottom: 5px solid #fff;
-    transform-origin: 0 100% ;
+    transform-origin: 0 100%;
     transform: scaleY(0.5);
     z-index: 5;
 }
+
 .grade.change::after,
 .cost.change::after,
-.time.change::after
-{
+.time.change::after {
     content: " ";
     position: absolute;
     left: 60px;
-    bottom:-18px;
-    width:28px;
+    bottom: -18px;
+    width: 28px;
     border-bottom: 5px solid #3869E5;
     transform-origin: 0 100%;
     transform: scaleY(0.5);
     z-index: 5;
 }
 
-.consult{
+.consult {
     width: 100%;
     height: 50px;
     text-align: center;
     margin-top: 56px;
     margin-bottom: 90px;
 }
-.consult>.liuyan{
+
+.consult>.liuyan {
     display: inline-block;
     width: 160px;
     height: 50px;
     line-height: 50px;
-    border:2px solid #FF5763;
+    border: 2px solid #FF5763;
     color: #FF5763;
-    margin-right: 24px; 
+    margin-right: 24px;
 }
-.consult>.zixun{
+
+.consult>.zixun {
     display: inline-block;
     width: 160px;
     height: 50px;
     line-height: 50px;
     background-color: #FF5763;
-    border:2px solid #FF5763;
-    color: #fff; 
+    border: 2px solid #FF5763;
+    color: #fff;
     cursor: pointer
 }
-a:hover,a:active,a:link,a:visited{
+
+a:hover,
+a:active,
+a:link,
+a:visited {
     text-decoration: none !important;
 }
+
 footer {
-    /*height: 17.857143rem;*/
     background: url(../img/footer_bg.jpg) repeat center;
     background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     background-size: cover
 }
+
 .pccss {
     display: block;
     margin-top: 4.571429rem;
@@ -246,58 +252,68 @@ footer {
 .lis {
     padding: 0 4.285714rem;
 }
+
 .links>span,
 .tuiguang>span {
     margin: 0.5rem 1rem 0.5rem 0;
     font-size: 12px;
 }
+
 .weibo {
     margin-left: 2.571429rem;
 }
+
 .qr {
     position: relative;
 }
+
 .qrwechat {
     position: absolute;
     top: -100px;
     left: 0;
 }
+
 .qrweibo {
     position: absolute;
     top: -100px;
     left: 86px;
 }
+
 .qrwechat,
 .qrweibo {
-	display: none;
+    display: none;
 }
+
 .pccss p {
     color: #ccc;
     font-size: 12px;
 }
+
 .pccss .bot_title {
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding-top: 2rem;
     opacity: 0.6;
 }
+
 .pccss a {
     color: #ccc
 }
+
 .pccss .logo {
     margin-bottom: 2rem;
     width: 100%;
     height: 100%
 }
-.pccss div{
+
+.pccss div {
     padding: 0 20px;
 }
 
-.pccss .lis:nth-child(2){
+.pccss .lis:nth-child(2) {
     border-right: 1px solid rgb(93, 93, 93);
     border-left: 1px solid rgb(93, 93, 93);
 }
-
 
 .toTop {
     display: block;
@@ -305,6 +321,7 @@ footer {
     top: 57%;
     right: 6rem;
 }
+
 .leyuu {
     display: block;
     position: fixed;
