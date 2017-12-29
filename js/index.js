@@ -43,11 +43,11 @@ window.onload = function () {
         success: function (data, key) {
             var jsArr = data;
             for (var key in jsArr) {};
-            console.log(jsArr);
+           
             $("body").on("click", ".country>li", function (e) {
                 //获取当前tab中鼠标停在的table栏的索引  
                 var index = $(this).index();
-                console.log(index);
+             
                 //根据这个索引切换，下面的展示  
                 $(".country>li").eq(index).addClass("active").siblings().removeClass("active");
                 //获取当前点击项目的ID
@@ -61,7 +61,7 @@ window.onload = function () {
 
                 $('.center').on('click', '.center_title>span', function (e) {
                     var index2 = $(this).index();
-                    console.log(index2);
+                
                     $(".center_title>span").eq(index2).addClass("active2").siblings().removeClass("active2");
                     $(".center_title>span").eq(index2).addClass("change").siblings().removeClass("change");
                     $(".center_content>img").eq(index2).show();
