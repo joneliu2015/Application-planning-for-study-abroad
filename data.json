@@ -78,7 +78,7 @@
         },{   
             "wendaSrc": "./img/pic/wenda_asia_1366.jpg",
             "wendaSrcset": "./img/pic/wenda_asia_1366.jpg 1366w, ./img/pic/wenda_asia_1600.jpg 1600w, ./img/pic/wenda_asia_1920.jpg 1920w",
-            "grade":"成绩要求",
+            "grade":"",
             "cost":"费用问题",
             "time":"时间规划",
             "chengjiSrc":"./img/pic/score_asia_1366.jpg",
